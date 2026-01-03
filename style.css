@@ -19,3 +19,29 @@ header {
   align-items: center;
   gap: 10px;
 }
+
+/* header buttons */
+header button {
+  background-color:rgba(105, 104, 104, 0.856);
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 60px;
+  box-shadow: none;
+  color: white;
+}
+
+.all-btn {
+  width: 70px;
+  background-color: rgb(97, 225, 121);
+}
+
+.wrapped-btn {
+  width: auto;
+  border: 2.5px solid white;
+  padding: 5px 18px;
+  flex: 1;
+
+}
