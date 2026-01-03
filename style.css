@@ -18,7 +18,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-left: 80px;
+  padding-left: 70px;
   padding-right: 15px;
   position: relative;
 }
@@ -59,19 +59,33 @@ header button {
 
 /* user profile image in header */
 .user-profile {
-  border: 1px solid white;
-  width: 100px;
+  width: 80px;
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
-  background-color:rgb(16, 15, 15) ;
+  background-color:rgb(24, 24, 24);
+  display: flex;
+  align-items: center;
+  justify-items: center;
 
 }
 
 .user-profile-image {
-  background-color: aqua;
-  width: 50px;
-  height: 50px;
-  margin-left: 50px;
+  background-color: rgba(139, 195, 230, 0.8);
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 4px 0 9px 4px black;
+}
+
+.user-profile-text {
+  padding-left: 7px;
+  font-family: helvetica;
+  font-size: 30px;
+  font-weight: 70px;
 }
