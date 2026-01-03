@@ -9,3 +9,13 @@ main {
   width: 100vw;
   height: 100vh;
 }
+
+/* header  */
+header {
+  border: 2px solid white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
