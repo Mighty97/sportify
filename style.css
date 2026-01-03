@@ -12,12 +12,14 @@ main {
 
 /* header  */
 header {
-  border: 2px solid white;
+  border-bottom: 2px solid rgb(16, 15, 15);
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding-left: 80px;
+  padding-right: 15px;
 }
 
 /* header buttons */
@@ -28,7 +30,7 @@ header button {
   border: none;
   border-radius: 20px;
   font-size: 16px;
-  font-weight: 60px;
+  font-weight: 15px;
   box-shadow: none;
   color: white;
 }
@@ -43,5 +45,12 @@ header button {
   border: 2.5px solid white;
   padding: 5px 18px;
   flex: 1;
+}
 
+.music-btn {
+ width: 80px;
+}
+
+.podcasts-btn {
+  flex: 1;
 }
