@@ -6,6 +6,6 @@ body {
 /* mobile version */
 @media (max-width: 768px) {
   body {
-    background-color: rgb(10, 162, 186);
+    background-color: rgb(20, 20, 20);
   }
 }
