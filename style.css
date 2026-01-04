@@ -90,3 +90,8 @@ header button {
   font-size: 30px;
   font-weight: 70px;
 }
+
+/* to get started text */
+.to-get-started-text {
+  color: white;
+}
