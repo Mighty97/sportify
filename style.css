@@ -108,22 +108,22 @@ header button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5px;
-  border: 1px solid rgb(20, 233, 211);
 }
 
 .artist-mix-card {
   margin-bottom: 10px;
-  border: 1px solid red;
+
 }
 
 .artist-image-container {
   height: 175px;
   width: 35%;
+  display: flex;
   position: relative; 
 }
 
 .artist-image {
-  width: 100%;
+  width: 175px;
   object-fit: cover;
   border-radius: 6px;
   
@@ -131,7 +131,7 @@ header button {
 
 .overall-block {
   height: 20px;
-  width: 100%;
+  width: 175px;
   position: absolute;
   bottom: 8px;
   display: flex;
