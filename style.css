@@ -94,8 +94,69 @@ header button {
 /* to get started text */
 .to-get-started-text {
   color: white;
-  margin-left: 45px;
+  margin-left: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 650;
+}
+
+/* artist mix card */
+.artist-mix-container {
+  width: 100%;
+  height: 240px;
+  margin-left: 20px;
+}
+
+.artist-mix-card {
+
+}
+
+.artist-image-container {
+  height: 175px;
+  width: 35%;
+  position: relative; 
+}
+
+.artist-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  
+}
+
+.overall-block {
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 8px;
+  display: flex;
+  gap: 6px;
+}
+
+.block-one {
+  height:20px ;
+  width: 5px;
+  background-color: rgb(215, 198, 97);
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.block-two {
+  background-color:  rgb(215, 198, 97);
+  height: 20px;
+  flex: 1;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.featured-artist {
+  color:rgb(173, 173, 169);
+  width: 175px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 10px;
 }
