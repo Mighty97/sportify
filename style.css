@@ -94,4 +94,8 @@ header button {
 /* to get started text */
 .to-get-started-text {
   color: white;
+  margin-left: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 650;
 }
