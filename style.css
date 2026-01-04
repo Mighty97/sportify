@@ -207,6 +207,7 @@ header button {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
+   cursor: pointer;
 }
 
 .song-title-artist {
@@ -222,6 +223,7 @@ header button {
   font-weight: bold; 
   margin-left: 20px;
   margin-top: 15px;
+   cursor: pointer;
 }
 
 .artist {
@@ -231,4 +233,19 @@ header button {
   font-weight: bold; 
   margin-left: 20px;
   margin-top: 5px;
+   cursor: pointer;
+}
+
+.song-options {
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-options img {
+  width: 100%;
+  object-fit: cover;
+  filter: invert(1);
+  cursor: pointer;
 }
